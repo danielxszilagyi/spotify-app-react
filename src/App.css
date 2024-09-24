@@ -1,0 +1,33 @@
+#main {
+  max-height: 100%;
+}
+#trackLink:hover {
+  color: #2585f9 !important;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #31353a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #575757;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
